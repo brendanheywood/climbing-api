@@ -6,6 +6,9 @@ This syndication format builds on the Atom, MediaRSS and GeoRSS specs to represe
 
 For consuming this feed,paging and searching is supported through the use of the opensearch xmlns in the same manner as GoogleData.
 
+In a way this proposal is a cut down version of the YouTube data API:
+http://code.google.com/apis/youtube/2.0/reference.html
+
 
 = Use cases =
 
