@@ -36,9 +36,12 @@ media="http://search.yahoo.com/mrss/"
 
 svg="http://www.w3.org/2000/svg"
 
+gd="http://schemas.google.com/g/2005"
+
 
 || Field || XML element || Example || Data type ||
 || id || atom:id || au.nsw.armidale.gara.n11 || URI ||
+|| Rating || gd:rating || <gd:rating min='1' max='5' numRaters='1914' average='4.24'/> || 4 star ||
 || URL of detail page || atom:link || climbing.com/au/nsw/gara/N1 || URL ||
 || Last mod || atom:updated || 11 Feb 2010 || Date ||
 || Name || atom:title || Icarus || String ||
