@@ -26,6 +26,15 @@ For consuming this feed,paging and searching is supported through the use of the
 5) The client can request the whole set, or page though the set, or request all updates since a date.
 
 
+||Schema||	Namespace Prefix	||Schema URL||
+||Atom Syndication Format||	[None] - this is the default namespace	||http://www.w3.org/2005/Atom||
+|| Open Search Schema || openSearch || http://a9.com/-/spec/opensearch/1.1/||
+||Media RSS || media || http://search.yahoo.com/mrss/||
+|| Google Data Schema || gd || http://schemas.google.com/g/2005||
+|| GeoRSS	 || georss || http://www.georss.org/georss||
+|| Geography Markup Language || gml || http://www.opengis.net/gml||
+|| Atom Publishing Protocol || app || http://www.w3.org/2007/app||
+
 = Fields and XML name spaces =
 
 The XML name spaces used so far are:
