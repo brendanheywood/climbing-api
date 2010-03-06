@@ -1,0 +1,29 @@
+#summary A specification for representing a set of climbing or bouldering routes
+
+= Introduction =
+
+This syndication format builds on the Atom, MediaRSS and GeoRSS specs to represent a set of climbing routes. In the context of climbing certain fields may take on more special meaning than in the underlying specification.
+
+
+= Use cases =
+
+1) A mobile application could be a Climbing Syndication and subscribe one or multiple climbing databases. As new routes are published the mobile device periodically updates the guide.
+
+2) Backup and restore of climbing databases, possibly from one climbing database to another.
+
+= Requireents =
+
+1) Must store all critical climbing route data typically found in most climbing guides. So far these fields include:
+
+* Name
+* Grade / Grade system
+* Description
+* Height
+* Flags (eg Danger, Highball)
+* First Ascender
+* First Ascender date
+* Link to image
+* Geometry of route overlaid onto photo
+* Lat / long / alt of route
+
+All field of these are optional.
