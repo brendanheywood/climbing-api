@@ -54,7 +54,7 @@ svg="http://www.w3.org/2000/svg"
 || Link to image || media:content || url="http://example.com/pl_thumbs/A.jpg" || URL ||
 || Related climbs (eg variant) || atom:link || <link rel="related" href="http://search.example.com/"/> || Url ||
 || Last mod date || atom:updated || 2010 || Date ||
-|| Geometry of route overlaid onto photo ||
+|| Geometry of route overlaid onto photo ||svg:path || <path d="M50,50 L100,100" /> || Style should be omitted and added by client ||
 || Lat / long  || georss:point || -31.1234 30.13414 ||
 || alt of route || georss:elev || 960m ||
 
