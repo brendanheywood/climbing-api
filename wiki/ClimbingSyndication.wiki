@@ -62,14 +62,4 @@ These are the XML schemas used by this spec.
 || Lat / long  || georss:point || -31.1234 30.13414 ||
 || alt of route || georss:elev || 960m ||
 
-All field of these are optional.
-
-
-See also:
-
-Atom Syndication spec:
-http://tools.ietf.org/html/rfc4287
-
-MediaRSS spec:
-
-GeoRSS-Simple
+All field of these are optional except the atom:id.
