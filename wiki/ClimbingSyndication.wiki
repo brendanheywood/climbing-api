@@ -15,7 +15,9 @@ This syndication format builds on the Atom, MediaRSS and GeoRSS specs to represe
 
 1) Must store all critical climbing route data typically found in most climbing guides. So far these fields include:
 
-* Name
+|| Field || XML element || Example ||
+|| id || atom:id || 
+|| Name || atom:
 * Grade / Grade system
 * Description
 * Height
