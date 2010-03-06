@@ -16,6 +16,10 @@ http://code.google.com/apis/youtube/2.0/reference.html
 
 2) Backup and restore of climbing databases, possibly from one climbing database to another.
 
+3) Allow easy crawling of route data for search engines (Google already supports GeoRSS from Sitemaps)
+
+
+
 = Requirements =
 
 1) Must store all critical climbing route data typically found in most climbing guides.
