@@ -25,6 +25,9 @@ For consuming this feed,paging and searching is supported through the use of the
 
 5) The client can request the whole set, or page though the set, or request all updates since a date.
 
+6) Like Atom entries a route must be identifiable _across_ climbing sites - so if one site imports routes into another there is still a link so they are duplicated.
+
+
 = XML element definitions =
 
 These are the XML schemas used by this spec.
@@ -36,12 +39,13 @@ These are the XML schemas used by this spec.
 || Google Data Schema || gd || http://schemas.google.com/g/2005||
 || GeoRSS	 || georss || http://www.georss.org/georss||
 || Geography Markup Language || gml || http://www.opengis.net/gml||
-|| Atom Publishing Protocol || app || http://www.w3.org/2007/app||
+|| Dublin Core metadata || dc || http://purl.org/dc/elements/1.1/ ||
+
 
 
 
 || Field || XML element || Example || Data type ||
-|| id || atom:id || au.nsw.armidale.gara.n11 || URI ||
+|| id || atom:id || tag:au.nsw.armidale.gara.n11 || URI ||
 || Rating || gd:rating || <gd:rating min='1' max='5' numRaters='1914' average='4.24'/> || 4 star ||
 || URL of detail page || atom:link || climbing.com/au/nsw/gara/N1 || URL ||
 || Last mod || atom:updated || 11 Feb 2010 || Date ||
