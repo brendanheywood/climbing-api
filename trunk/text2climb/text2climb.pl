@@ -30,19 +30,19 @@ foreach my $route (@routes){
 	##### pull out rating
 	$route =~ s/(\**)//;
 	my $rating = length($1)*2-1;
-	print "\t<gd:rating min='1' max='5' average='$rating'/>\n";
+	$rating = "\t<gd:rating min='1' max='5' average='$rating'/>\n";
 
 	### pull out height
 	$route =~ s/((\d)+m)//;
-	print "\t<dc:format>$1</dc:format>\n";
+	my $grade = "\t<dc:format>$1</dc:format>\n";
 
 	### pull out height
 	$route =~ s/((\d)+)//;
-	print "\t<dc:grade>$1</dc:grade>\n";
+	my $height = "\t<dc:grade>$1</dc:grade>\n";
 
 	### pull out height
 	$route =~ s/\s*(.*?)\s*\n//;
-	print "\t<title type='xhtml'><div>$1</div></title>\n";
+	print "\t<title type='xhtml'><div>$rating $1 $height $grade</div></title>\n";
 
 	### pull out FA
 	$route =~ s/FFA:(.*)//;
