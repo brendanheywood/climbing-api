@@ -12,12 +12,12 @@
     <id>http://climbing.com/au.nsw.ne.1</id>
     <updated>2010-03-01T10:00:00Z</updated>
     <title type="xhtml">
-    <gd:rating min='1' max='5' average='5'>*****</gd:rating>
-    Scimitar
-    <dc:format>70m</dc:format>
-    <dc:format>21</dc:format>
+      <gd:rating min='1' max='5' average='5'>*****</gd:rating>
+      Scimitar
+      <dc:format>70m</dc:format>
+      <dc:format>21</dc:format>
     </title>
-	<georss:point>-30.595406 151.798403</georss:point>
+    <georss:point>-30.595406 151.798403</georss:point>
     <author>
       <name>Tobin Sorenson</name>
     </author>
@@ -25,28 +25,34 @@
       <name>John Allen</name>
     </author>
     <content type="xhtml">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>A soaring and beautiful looking curved crack. Described as one of the best routes in the State. The start is unmistakable - the immodest, arching crackline.</p>
-      <ol>
-        <li><dc:format>21</dc:format> The line spears leftwards up to a semi-detached flake.</li>
-        <li><dc:format>18</dc:format> Glide leftwards again on excellent stone. Before the crack expires, head straight up to the top.</li>
-      </ol>
-    </div>
-	</content>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>A soaring and beautiful looking curved crack. Described as one of the best routes in the State. The start is unmistakable - the immodest, arching crackline.</p>
+        <ol>
+          <li>
+            <dc:format>21</dc:format>
+            The line spears leftwards up to a semi-detached flake.</li>
+          <li>
+            <dc:format>18</dc:format>
+            Glide leftwards again on excellent stone. Before the crack expires, head straight up to the top.</li>
+        </ol>
+      </div>
+    </content>
+    <category term="Crack" />
+    <category term="SDS" />
     <dc:date>1979</dc:date>
   </entry>
   <entry>
     <id>http://climbing.com/au.nsw.ne.2</id>
     <updated>2010-03-01T10:00:00Z</updated>
     <title type="xhtml">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <gd:rating min='1' max='5' average='5'>*****</gd:rating>
-      Roarke's Rift
-      <dc:format>55m</dc:format>
-      <dc:format>14</dc:format>
-    </div>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <gd:rating min='1' max='5' average='5'>*****</gd:rating>
+        Roarke's Rift
+        <dc:format>55m</dc:format>
+        <dc:format>14</dc:format>
+      </div>
     </title>
-	<georss:point>-30.595106 151.798603</georss:point>
+    <georss:point>-30.595106 151.798603</georss:point>
     <dc:date>4 / 1973</dc:date>
     <author>
       <name>Richard Sullivan</name>
@@ -63,27 +69,29 @@
         </ol>
       </div>
     </content>
+    <category term="SDS" />
   </entry>
   <entry>
     <id>http://climbing.com/au.nsw.ne.3</id>
     <updated>2010-03-01T10:00:00Z</updated>
     <title>
-    <gd:rating min='1' max='5' average='3'>***</gd:rating>
-    German Quality
-    <dc:format>55m</dc:format>
-    <dc:format>24</dc:format>
+      <gd:rating min='1' max='5' average='3'>***</gd:rating>
+      German Quality
+      <dc:format>55m</dc:format>
+      <dc:format>24</dc:format>
     </title>
-	<georss:point>-30.595206 151.798503</georss:point>
+    <georss:point>-30.595206 151.798503</georss:point>
     <author>
-      <name>Jörg Wilz </name>
+      <name>Jörg Wilz</name>
     </author>
     <author>
-      <name> Stuart Camps Feb</name>
+      <name>Stuart Camps Feb</name>
     </author>
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
         <p>Excellent. The first hard wall route at Girraween. When the tourist track meets the rock itself, break off right and follow a vague track through the open bush for about 80m until the first orange streak is found. Now walk 30m right to the third orange streak. Now continue 10m down the slab from the third streak to the base of a large boulder. Finger traverse out right under bulge and up to bolt. Continue right and swing up to scoop. Balance back left and onto twin jugs. Bolt. Continue up wall and carefully to top.</p>
       </div>
     </content>
+    <category term="Crack" />
   </entry>
 </feed>
