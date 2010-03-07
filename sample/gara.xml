@@ -3,11 +3,11 @@
       xmlns:georss="http://www.georss.org/georss" 
       xmlns:gml="http://www.opengis.net/gml"
       xmlns:dc="http://purl.org/dc/elements/1.1/"
-      xmlns:xhtml="http://www.w3.org/1999/xhtml"
       xmlns:gd="http://schemas.google.com/g/2005">
 <title>Gara Gorge Bouldering guide</title>
 <updated>2010-03-01T10:00:00Z</updated>
 <id>http://climbing.com/au.nsw.ne</id>
+<link rel="self" href="feed://climbing-api.googlecode.com/svn/trunk/sample/gara.xml" />
 
 <!--
 <entry>
