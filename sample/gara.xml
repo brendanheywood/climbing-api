@@ -12,7 +12,7 @@
     <id>http://climbing.com/au.nsw.ne.1</id>
     <updated>2010-03-01T10:00:00Z</updated>
     <title type="xhtml">
-      <gd:rating min='1' max='5' average='5'>*****</gd:rating>
+      <gd:rating min='1' max='3' average='3'>***</gd:rating>
       Scimitar
       <dc:format>70m</dc:format>
       <dc:format>21</dc:format>
@@ -46,7 +46,7 @@
     <updated>2010-03-01T10:00:00Z</updated>
     <title type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-        <gd:rating min='1' max='5' average='5'>*****</gd:rating>
+        <gd:rating min='1' max='3' average='3'>***</gd:rating>
         Roarke's Rift
         <dc:format>55m</dc:format>
         <dc:format>14</dc:format>
@@ -75,7 +75,7 @@
     <id>http://climbing.com/au.nsw.ne.3</id>
     <updated>2010-03-01T10:00:00Z</updated>
     <title>
-      <gd:rating min='1' max='5' average='3'>***</gd:rating>
+      <gd:rating min='1' max='3' average='2'>**</gd:rating>
       German Quality
       <dc:format>55m</dc:format>
       <dc:format>24</dc:format>
