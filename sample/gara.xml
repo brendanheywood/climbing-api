@@ -30,11 +30,11 @@
 <entry>
 	<id>http://climbing.com/au.nsw.ne.1</id>
 	<title>
-		<gd:rating min='1' max='5' average='5'>*****</gd:rating>
 		Roarke's Rift
+	</title>
+		<gd:rating min='1' max='5' average='5'>*****</gd:rating>
 		<dc:format>55m</dc:format>
 		<dc:grade>14</dc:grade>
-	</title>
 	<author>Richard Sullivan</author>
 	<author>Rob Staszewski</author>
 	<content type="xhtml">
