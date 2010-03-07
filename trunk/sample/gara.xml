@@ -12,7 +12,7 @@
 <!--
 <entry>
 	<id>au.nsw.ne.1</id>
-	<title>
+	<title type="xhtml">
 		<gd:rating min='1' max='5' average='5'>*****</gd:rating>
 		Scimitar
 		<dc:format>70m</dc:format>
