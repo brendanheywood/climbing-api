@@ -42,7 +42,7 @@ foreach my $route (@routes){
 
 	### pull out height
 	$route =~ s/\s*(.*?)\s*\n//;
-	print "\t<title type='xhtml'><div>$rating $1 $height $grade</div></title>\n";
+	print "\t<title type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>\n\t$rating\t\t$1\n\t$height\t$grade\t</div></title>\n";
 
 	### pull out FA
 	$route =~ s/FFA:(.*)//;
@@ -60,8 +60,10 @@ foreach my $route (@routes){
 
 	print "\t<author><name>".join ("</name></author>\n\t<author><name>", @fa)."</name></author>\n";
 
+	$route =~ s/(\(\d+\))(.*)\n/<ol><li>$2<\/li><\/ol>\n/gm;
+	$route =~ s/<\/ol>\s*<ol>/\n/g;
 
-	print "\t<content>$route</content>\n";
+	print "\t<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>$route</div></content>\n";
 
 	print "</entry>\n";
 
