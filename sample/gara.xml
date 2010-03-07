@@ -5,7 +5,9 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/"
       xmlns:gd="http://schemas.google.com/g/2005">
 <title>Gara Gorge Bouldering guide</title>
+<updated></update>
 <entry>
+	<id>au.nsw.ne.1</id>
 	<title>
 		<gd:rating min='1' max='5' average='5'>*****</gd:rating>
 		Scimitar
@@ -21,6 +23,7 @@
 	</summary>
 </entry>
 <entry>
+	<id>au.nsw.ne.2</id>
 	<title>
 		<gd:rating min='1' max='5' average='5'>*****</gd:rating>
 		Roarke's Rift
@@ -39,6 +42,7 @@
 	</content>
 </entry>
 <entry>
+	<id>au.nsw.ne.2</id>
 	<title>
 		<gd:rating min='1' max='5' average='3'>***</gd:rating>
 		German Quality
