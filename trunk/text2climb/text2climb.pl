@@ -14,13 +14,23 @@ my $raw_text = join '', <IN>;
 
 my @routes = split /\n\n+/, $raw_text;
 
+print <<EOF;
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" 
+      xmlns:georss="http://www.georss.org/georss" 
+      xmlns:gml="http://www.opengis.net/gml"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:gd="http://schemas.google.com/g/2005">
+EOF
+
 foreach my $route (@routes){
 	
 	print "<entry>\n";
 
 	##### pull out rating
 	$route =~ s/(\**)//;
-	print "\t<rating average='$1'/>\n";
+	my $rating = length($1)*2-1;
+	print "\t<gd:rating min='1' max='5' average='$rating'/>\n";
 
 	### pull out height
 	$route =~ s/((\d)+m)//;
@@ -32,7 +42,7 @@ foreach my $route (@routes){
 
 	### pull out height
 	$route =~ s/\s*(.*?)\s*\n//;
-	print "\t<title>$1</title>\n";
+	print "\t<title type='xhtml'><div>$1</div></title>\n";
 
 	### pull out FA
 	$route =~ s/FFA:(.*)//;
@@ -46,16 +56,20 @@ foreach my $route (@routes){
 	if ($fa =~ s/(\d\d\d\d)//){
 		print "\t<dc:date>$1</dc:date>\n";
 	}
-	my @fa = split /and|\&/, $fa;
+	my @fa = split /and|\&|,/, $fa;
 
-	print "\t<author>".join ("</author>\n\t<author>", @fa)."</author>\n";
+	print "\t<author><name>".join ("</name></author>\n\t<author><name>", @fa)."</name></author>\n";
 
 
-	print "\t<summary>$route</summary>\n";
+	print "\t<content>$route</content>\n";
 
 	print "</entry>\n";
 
 }
 
+print <<EOF;
+</feed>
+
+EOF
 
 
