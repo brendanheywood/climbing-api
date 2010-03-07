@@ -3,6 +3,7 @@
       xmlns:georss="http://www.georss.org/georss" 
       xmlns:gml="http://www.opengis.net/gml"
       xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
       xmlns:gd="http://schemas.google.com/g/2005">
 <title>Gara Gorge Bouldering guide</title>
 <updated>2010-03-01T10:00:00Z</updated>
@@ -37,12 +38,14 @@
 	<author>Richard Sullivan</author>
 	<author>Rob Staszewski</author>
 	<content type="xhtml">
+	<xhtml:div>
 	<p>A great classic! The definite shallow corner/flake system around right from Scimitar. I would say it's closer to 75m if starting from ground level.</p>
 	<ol>
 		<li>(crux). Up slab, into corner, which is followed to a small ledge.
 		<li>Up, then left a few metres into grass, up flakes to finish. [Note: a better way to do the second pitch is to follow the corner system all the way to the top]</li>
 	<ol>
 	<dc:date>4 / 1973</dc:date>
+	</xhtml:div>
 	</content>
 </entry>
 <!--
