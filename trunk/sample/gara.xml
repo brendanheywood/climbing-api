@@ -7,9 +7,10 @@
 <title>Gara Gorge Bouldering guide</title>
 <entry>
 	<gd:rating min='1' max='5' average='5'/>
-	<dc:format>70m</dc:format>
-	<dc:grade>21</dc:grade>
 	<title>Scimitar</title>
+		<dc:format>70m</dc:format>
+		<dc:grade>21</dc:grade>
+	</title>
 	<dc:date>1979</dc:date>
 	<author> Tobin Sorenson</author>
 	<author> John Allen .</author>
@@ -20,9 +21,10 @@
 </entry>
 <entry>
 	<gd:rating min='1' max='5' average='5'/>
-	<dc:format>55m</dc:format>
-	<dc:grade>14</dc:grade>
-	<title>Roarke's Rift</title>
+	<title>Roarke's Rift
+		<dc:format>55m</dc:format>
+		<dc:grade>14</dc:grade>
+	</title>
 	<dc:date>4 / 1973</dc:date>
 	<author> Richard Sullivan</author>
 	<author> Rob Staszewski .</author>
