@@ -6,6 +6,9 @@
       xmlns:gd="http://schemas.google.com/g/2005">
 <title>Gara Gorge Bouldering guide</title>
 <updated>2010-03-01T10:00:00Z</updated>
+<id>
+
+<!--
 <entry>
 	<id>au.nsw.ne.1</id>
 	<title>
@@ -22,6 +25,7 @@
 	<dc:date>1979</dc:date>
 	</summary>
 </entry>
+-->
 <entry>
 	<id>au.nsw.ne.2</id>
 	<title>
@@ -41,6 +45,7 @@
 	<dc:date>4 / 1973</dc:date>
 	</content>
 </entry>
+<!--
 <entry>
 	<id>au.nsw.ne.2</id>
 	<title>
@@ -55,5 +60,7 @@
 
 </summary>
 </entry>
+-->
+
 </feed>
 
