@@ -9,7 +9,8 @@
   <id>http://climbing.com/au.nsw.ne</id>
   <link rel="self" href="http://climbing-api.googlecode.com/svn/trunk/sample/gara.xml" />
   <entry>
-    <id>au.nsw.ne.1</id>
+    <id>http://climbing.com/au.nsw.ne.1</id>
+    <updated>2010-03-01T10:00:00Z</updated>
     <title type="xhtml">
     <gd:rating min='1' max='5' average='5'>*****</gd:rating>
     Scimitar
@@ -34,7 +35,7 @@
     </summary>
   </entry>
   <entry>
-    <id>http://climbing.com/au.nsw.ne.1</id>
+    <id>http://climbing.com/au.nsw.ne.2</id>
     <updated>2010-03-01T10:00:00Z</updated>
     <title type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -62,7 +63,8 @@
     </content>
   </entry>
   <entry>
-    <id>au.nsw.ne.2</id>
+    <id>http://climbing.com/au.nsw.ne.3</id>
+    <updated>2010-03-01T10:00:00Z</updated>
     <title>
     <gd:rating min='1' max='5' average='3'>***</gd:rating>
     German Quality
@@ -79,7 +81,6 @@
       <div xmlns="http://www.w3.org/1999/xhtml">
         <p>Excellent. The first hard wall route at Girraween. When the tourist track meets the rock itself, break off right and follow a vague track through the open bush for about 80m until the first orange streak is found. Now walk 30m right to the third orange streak. Now continue 10m down the slab from the third streak to the base of a large boulder. Finger traverse out right under bulge and up to bolt. Continue right and swing up to scoop. Balance back left and onto twin jugs. Bolt. Continue up wall and carefully to top.</p>
       </div>
-      </ol>
     </content>
   </entry>
 </feed>
