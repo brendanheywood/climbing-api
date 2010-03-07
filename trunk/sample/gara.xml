@@ -13,10 +13,12 @@
     <id>http://climbing.com/au.nsw.ne.1</id>
     <updated>2010-03-01T10:00:00Z</updated>
     <title type="xhtml">
-      <gd:rating min='1' max='3' average='3'>***</gd:rating>
-      Scimitar
-      <dc:format>70m</dc:format>
-      <dc:format>21</dc:format>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <gd:rating min='1' max='3' average='3'>***</gd:rating>
+        Scimitar
+        <dc:format>70m</dc:format>
+        <dc:format>21</dc:format>
+      </div>
     </title>
     <georss:point>-30.595406 151.798403</georss:point>
     <author>
@@ -41,7 +43,7 @@
     <category term="Crack" />
     <category term="SDS" />
     <dc:date>1979</dc:date>
-	<media:content url="http://climbing-api.googlecode.com/svn/trunk/sample/photos/climb1.jpg" />
+    <media:content url="http://climbing-api.googlecode.com/svn/trunk/sample/photos/climb1.jpg" />
   </entry>
   <entry>
     <id>http://climbing.com/au.nsw.ne.2</id>
@@ -72,16 +74,18 @@
       </div>
     </content>
     <category term="SDS" />
-	<media:content url="http://climbing-api.googlecode.com/svn/trunk/sample/photos/climb2.jpg" />
+    <media:content url="http://climbing-api.googlecode.com/svn/trunk/sample/photos/climb2.jpg" />
   </entry>
   <entry>
     <id>http://climbing.com/au.nsw.ne.3</id>
     <updated>2010-03-01T10:00:00Z</updated>
-    <title>
-      <gd:rating min='1' max='3' average='2'>**</gd:rating>
-      German Quality
-      <dc:format>55m</dc:format>
-      <dc:format>24</dc:format>
+    <title type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <gd:rating min='1' max='3' average='2'>**</gd:rating>
+        German Quality
+        <dc:format>55m</dc:format>
+        <dc:format>24</dc:format>
+      </div>
     </title>
     <georss:point>-30.595206 151.798503</georss:point>
     <author>
