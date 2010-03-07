@@ -29,8 +29,8 @@ foreach my $route (@routes){
 
 	##### pull out rating
 	$route =~ s/(\**)//;
-	my $rating = length($1)*2-1;
-	$rating = "\t<gd:rating min='1' max='5' average='$rating'/>\n";
+	my $rating = length($1);
+	$rating = "\t<gd:rating min='1' max='5' average='$rating'/>".('*'x$rating)."</gd:rating>\n";
 
 	### pull out height
 	$route =~ s/((\d)+m)//;
