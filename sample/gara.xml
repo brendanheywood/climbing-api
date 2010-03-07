@@ -15,7 +15,7 @@
     <gd:rating min='1' max='5' average='5'>*****</gd:rating>
     Scimitar
     <dc:format>70m</dc:format>
-    <dc:grade>21</dc:grade>
+    <dc:format>21</dc:format>
     </title>
     <author>
       <name>Tobin Sorenson</name>
@@ -27,8 +27,8 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
       <p>A soaring and beautiful looking curved crack. Described as one of the best routes in the State. The start is unmistakable - the immodest, arching crackline.</p>
       <ol>
-        <li>(21). The line spears leftwards up to a semi-detached flake.</li>
-        <li>(18). Glide leftwards again on excellent stone. Before the crack expires, head straight up to the top.</li>
+        <li><dc:format>21</dc:format> The line spears leftwards up to a semi-detached flake.</li>
+        <li><dc:format>18</dc:format> Glide leftwards again on excellent stone. Before the crack expires, head straight up to the top.</li>
       </ol>
     </div>
 	</content>
@@ -42,7 +42,7 @@
       <gd:rating min='1' max='5' average='5'>*****</gd:rating>
       Roarke's Rift
       <dc:format>55m</dc:format>
-      <dc:grade>14</dc:grade>
+      <dc:format>14</dc:format>
     </div>
     </title>
     <dc:date>4 / 1973</dc:date>
@@ -69,7 +69,7 @@
     <gd:rating min='1' max='5' average='3'>***</gd:rating>
     German Quality
     <dc:format>55m</dc:format>
-    <dc:grade>24</dc:grade>
+    <dc:format>24</dc:format>
     </title>
     <author>
       <name>Jörg Wilz </name>
