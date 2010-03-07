@@ -22,17 +22,17 @@ http://code.google.com/apis/youtube/2.0/reference.html
 
 = Requirements =
 
-1) Must store all critical climbing route data typically found in most climbing guides.
+1) Must store all critical climbing route data typically found in most climbing guides. What makes that list up is below.
 
-2) Dates need to be flexible to allow just a year or month or a detailed time.
+2) FA dates need to be flexible to allow just a year or month or a detailed time. Old guides often have just a year or year and month.
 
-3) Other may use only some parts and still needs to work.
+3) Be as flexible as possible - almost nothing should be required, data can be filled in later.
 
-4) Additional namespaces may be added (just like atom) to express more information about the climbs that we haven't thought of yet.
+4) Additional name spaces may be added (just like atom) to express more information about the climbs that we haven't thought of yet. (eg a site may store more info like climbing style but it will be in it's own name space)
 
 5) The client can request the whole set, or page though the set, or request all updates since a date.
 
-6) Like Atom entries a route must be identifiable _across_ climbing sites - so if one site imports routes into another there is still a link so they are duplicated.
+6) Like Atom entries a route must be identifiable _across_ climbing sites - so if one site imports routes into another there is still a link so they are NOT duplicated.
 
 
 = XML element definitions =
