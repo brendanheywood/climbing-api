@@ -32,9 +32,11 @@
 	<title>
 		Roarke's Rift
 	</title>
+<!--
 		<gd:rating min='1' max='5' average='5'>*****</gd:rating>
 		<dc:format>55m</dc:format>
 		<dc:grade>14</dc:grade>
+-->
 	<author>Richard Sullivan</author>
 	<author>Rob Staszewski</author>
 	<content type="xhtml">
