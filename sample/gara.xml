@@ -29,7 +29,7 @@
 -->
 <entry>
 	<id>http://climbing.com/au.nsw.ne.1</id>
-	<title>
+	<title type="xhtml">
 		<gd:rating min='1' max='5' average='5'>*****</gd:rating>
 		Roarke's Rift
 		<dc:format>55m</dc:format>
