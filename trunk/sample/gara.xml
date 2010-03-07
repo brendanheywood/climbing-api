@@ -6,7 +6,7 @@
       xmlns:gd="http://schemas.google.com/g/2005">
 <title>Gara Gorge Bouldering guide</title>
 <updated>2010-03-01T10:00:00Z</updated>
-<id>tag:au.nsw.ne</id>
+<id>http://climbing.com/au.nsw.ne</id>
 
 <!--
 <entry>
@@ -27,7 +27,7 @@
 </entry>
 -->
 <entry>
-	<id>tag:au.nsw.ne.2</id>
+	<id>http://climbing.com/au.nsw.ne.1</id>
 	<title>
 		<gd:rating min='1' max='5' average='5'>*****</gd:rating>
 		Roarke's Rift
