@@ -30,14 +30,12 @@
 <entry>
 	<id>http://climbing.com/au.nsw.ne.1</id>
 	<title>
-		Roarke's Rift
-	</title>
-<!--
 		<gd:rating min='1' max='5' average='5'>*****</gd:rating>
+		Roarke's Rift
 		<dc:format>55m</dc:format>
 		<dc:grade>14</dc:grade>
+	</title>
 	<dc:date>4 / 1973</dc:date>
--->
 	<author>Richard Sullivan</author>
 	<author>Rob Staszewski</author>
 	<content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">
