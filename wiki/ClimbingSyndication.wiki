@@ -59,7 +59,7 @@ These are the XML schemas used by this spec.
 || Name || atom:title || Icarus || String ||
 || Grade system || dc:type|| V || String (V, Ewbank, etc - lock down choices) ||
 || Height / Grade || dc:format || 6m, V3 || String - format depends on system, can be repeated for multiple pitches ||
-|| Description || atom:summary || Thin hard crimps || String ||
+|| Description || atom:content || Thin hard crimps || String ||
 || Flags (eg Danger, Highball) || atom:category || Danger, Highball ||
 || First Ascender || atom:author || Fred Nicole || String ||
 || Seconder / spotter || atom:contributor || Little Jimmy || String ||
