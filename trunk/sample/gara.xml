@@ -40,6 +40,7 @@
     <category term="Crack" />
     <category term="SDS" />
     <dc:date>1979</dc:date>
+	<media:content url="http://climbing-api.googlecode.com/svn/trunk/sample/photos/climb1.jpg" />
   </entry>
   <entry>
     <id>http://climbing.com/au.nsw.ne.2</id>
@@ -70,6 +71,7 @@
       </div>
     </content>
     <category term="SDS" />
+	<media:content url="http://climbing-api.googlecode.com/svn/trunk/sample/photos/climb2.jpg" />
   </entry>
   <entry>
     <id>http://climbing.com/au.nsw.ne.3</id>
