@@ -60,8 +60,14 @@ foreach my $route (@routes){
 
 	print "\t<author><name>".join ("</name></author>\n\t<author><name>", @fa)."</name></author>\n";
 
-	$route =~ s/(\(\d+\))(.*)\n/<ol><li>$2<\/li><\/ol>\n/gm;
+	# turn pitches into ordered lists
+	# (1) pitch one
+	# (2) pitch two
+
+	$route .= "\n";
+	$route =~ s/(\(\d+\))(.*?)\n/<ol><li>$2<\/li><\/ol>\n/g;
 	$route =~ s/<\/ol>\s*<ol>/\n/g;
+#	$route =~ s/<li>
 
 	print "\t<content type='xhtml'><div xmlns='http://www.w3.org/1999/xhtml'>$route</div></content>\n";
 
