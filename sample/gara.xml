@@ -17,6 +17,7 @@
     <dc:format>70m</dc:format>
     <dc:format>21</dc:format>
     </title>
+	<georss:point>-30.595406 151.798403</georss:point>
     <author>
       <name>Tobin Sorenson</name>
     </author>
@@ -45,6 +46,7 @@
       <dc:format>14</dc:format>
     </div>
     </title>
+	<georss:point>-30.595106 151.798603</georss:point>
     <dc:date>4 / 1973</dc:date>
     <author>
       <name>Richard Sullivan</name>
@@ -71,6 +73,7 @@
     <dc:format>55m</dc:format>
     <dc:format>24</dc:format>
     </title>
+	<georss:point>-30.595206 151.798503</georss:point>
     <author>
       <name>Jörg Wilz </name>
     </author>
