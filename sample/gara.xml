@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" 
+      xmlns:georss="http://www.georss.org/georss" 
+      xmlns:gml="http://www.opengis.net/gml"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:gd="http://schemas.google.com/g/2005">
+<title>Gara Gorge Bouldering guide</title>
+<entry>
+	<gd:rating min='1' max='5' average='5'/>
+	<dc:format>70m</dc:format>
+	<dc:grade>21</dc:grade>
+	<title>Scimitar</title>
+	<dc:date>1979</dc:date>
+	<author> Tobin Sorenson</author>
+	<author> John Allen .</author>
+	<summary>A soaring and beautiful looking curved crack. Described as one of the best routes in the State. The start is unmistakable - the immodest, arching crackline.
+(1) (21). The line spears leftwards up to a semi-detached flake.
+(2) (18). Glide leftwards again on excellent stone. Before the crack expires, head straight up to the top.
+</summary>
+</entry>
+<entry>
+	<gd:rating min='1' max='5' average='5'/>
+	<dc:format>55m</dc:format>
+	<dc:grade>14</dc:grade>
+	<title>Roarke's Rift</title>
+	<dc:date>4 / 1973</dc:date>
+	<author> Richard Sullivan</author>
+	<author> Rob Staszewski .</author>
+	<summary>A great classic! The definite shallow corner/flake system around right from Scimitar. I would say it's closer to 75m if starting from ground level.
+(1) (crux). Up slab, into corner, which is followed to a small ledge.
+(2). Up, then left a few metres into grass, up flakes to finish. [Note: a better way to do the second pitch is to follow the corner system all the way to the top]
+</summary>
+</entry>
+<entry>
+	<gd:rating min='1' max='5' average='3'/>
+	<dc:format>55m</dc:format>
+	<dc:grade>24</dc:grade>
+	<title>German Quality</title>
+	<author> Jörg Wilz </author>
+	<author> Stuart Camps Feb 84.</author>
+	<summary>Excellent. The first hard wall route at Girraween. When the tourist track meets the rock itself, break off right and follow a vague track through the open bush for about 80m until the first orange streak is found. Now walk 30m right to the third orange streak. Now continue 10m down the slab from the third streak to the base of a large boulder. Finger traverse out right under bulge and up to bolt. Continue right and swing up to scoop. Balance back left and onto twin jugs. Bolt. Continue up wall and carefully to top.
+
+</summary>
+</entry>
+</feed>
+
