@@ -4,69 +4,82 @@
       xmlns:gml="http://www.opengis.net/gml"
       xmlns:dc="http://purl.org/dc/elements/1.1/"
       xmlns:gd="http://schemas.google.com/g/2005">
-<title>Gara Gorge Bouldering guide</title>
-<updated>2010-03-01T10:00:00Z</updated>
-<id>http://climbing.com/au.nsw.ne</id>
-<link rel="self" href="http://climbing-api.googlecode.com/svn/trunk/sample/gara.xml" />
-
-<!--
-<entry>
-	<id>au.nsw.ne.1</id>
-	<title type="xhtml">
-		<gd:rating min='1' max='5' average='5'>*****</gd:rating>
-		Scimitar
-		<dc:format>70m</dc:format>
-		<dc:grade>21</dc:grade>
-	</title>
-	<author>Tobin Sorenson</author>
-	<author>John Allen</author>
-	<summary>A soaring and beautiful looking curved crack. Described as one of the best routes in the State. The start is unmistakable - the immodest, arching crackline.
-(1) (21). The line spears leftwards up to a semi-detached flake.
-(2) (18). Glide leftwards again on excellent stone. Before the crack expires, head straight up to the top.
-	<dc:date>1979</dc:date>
-	</summary>
-</entry>
--->
-<entry>
-	<id>http://climbing.com/au.nsw.ne.1</id>
-	<updated>2010-03-01T10:00:00Z</updated>
-	<title type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">
-		<gd:rating min='1' max='5' average='5'>*****</gd:rating>
-		Roarke's Rift
-		<dc:format>55m</dc:format>
-		<dc:grade>14</dc:grade>
-	</div></title>
-	<dc:date>4 / 1973</dc:date>
-	<author>
-		<name>Richard Sullivan</name>
-	</author>
-	<author>
-		<name>Rob Staszewski</name>
-	</author>
-	<content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">
-		<p>A great classic! The definite shallow corner/flake system around right from Scimitar. I would say it's closer to 75m if starting from ground level.</p>
-		<ol>
-			<li>(crux). Up slab, into corner, which is followed to a small ledge.</li>
-			<li>Up, then left a few metres into grass, up flakes to finish. [Note: a better way to do the second pitch is to follow the corner system all the way to the top]</li>
-		</ol>
-	</div></content>
-</entry>
-<!--
-<entry>
-	<id>au.nsw.ne.2</id>
-	<title>
-		<gd:rating min='1' max='5' average='3'>***</gd:rating>
-		German Quality
-		<dc:format>55m</dc:format>
-		<dc:grade>24</dc:grade>
-	</title>
-	<author>Jörg Wilz</author>
-	<author>Stuart Camps Feb 84</author>
-	<summary>Excellent. The first hard wall route at Girraween. When the tourist track meets the rock itself, break off right and follow a vague track through the open bush for about 80m until the first orange streak is found. Now walk 30m right to the third orange streak. Now continue 10m down the slab from the third streak to the base of a large boulder. Finger traverse out right under bulge and up to bolt. Continue right and swing up to scoop. Balance back left and onto twin jugs. Bolt. Continue up wall and carefully to top.
-
-</summary>
-</entry>
--->
-
+  <title>Gara Gorge Bouldering guide</title>
+  <updated>2010-03-01T10:00:00Z</updated>
+  <id>http://climbing.com/au.nsw.ne</id>
+  <link rel="self" href="http://climbing-api.googlecode.com/svn/trunk/sample/gara.xml" />
+  <entry>
+    <id>au.nsw.ne.1</id>
+    <title type="xhtml">
+    <gd:rating min='1' max='5' average='5'>*****</gd:rating>
+    Scimitar
+    <dc:format>70m</dc:format>
+    <dc:grade>21</dc:grade>
+    </title>
+    <author>
+      <name>Tobin Sorenson</name>
+    </author>
+    <author>
+      <name>John Allen</name>
+    </author>
+    <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>A soaring and beautiful looking curved crack. Described as one of the best routes in the State. The start is unmistakable - the immodest, arching crackline.</p>
+      <ol>
+        <li>(21). The line spears leftwards up to a semi-detached flake.</li>
+        <li>(18). Glide leftwards again on excellent stone. Before the crack expires, head straight up to the top.</li>
+      </ol>
+    </div>
+    <dc:date>1979</dc:date>
+    </summary>
+  </entry>
+  <entry>
+    <id>http://climbing.com/au.nsw.ne.1</id>
+    <updated>2010-03-01T10:00:00Z</updated>
+    <title type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <gd:rating min='1' max='5' average='5'>*****</gd:rating>
+      Roarke's Rift
+      <dc:format>55m</dc:format>
+      <dc:grade>14</dc:grade>
+    </div>
+    </title>
+    <dc:date>4 / 1973</dc:date>
+    <author>
+      <name>Richard Sullivan</name>
+    </author>
+    <author>
+      <name>Rob Staszewski</name>
+    </author>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>A great classic! The definite shallow corner/flake system around right from Scimitar. I would say it's closer to 75m if starting from ground level.</p>
+        <ol>
+          <li>(crux). Up slab, into corner, which is followed to a small ledge.</li>
+          <li>Up, then left a few metres into grass, up flakes to finish. [Note: a better way to do the second pitch is to follow the corner system all the way to the top]</li>
+        </ol>
+      </div>
+    </content>
+  </entry>
+  <entry>
+    <id>au.nsw.ne.2</id>
+    <title>
+    <gd:rating min='1' max='5' average='3'>***</gd:rating>
+    German Quality
+    <dc:format>55m</dc:format>
+    <dc:grade>24</dc:grade>
+    </title>
+    <author>
+      <name>Jörg Wilz </name>
+    </author>
+    <author>
+      <name> Stuart Camps Feb</name>
+    </author>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Excellent. The first hard wall route at Girraween. When the tourist track meets the rock itself, break off right and follow a vague track through the open bush for about 80m until the first orange streak is found. Now walk 30m right to the third orange streak. Now continue 10m down the slab from the third streak to the base of a large boulder. Finger traverse out right under bulge and up to bolt. Continue right and swing up to scoop. Balance back left and onto twin jugs. Bolt. Continue up wall and carefully to top.</p>
+      </div>
+      </ol>
+    </content>
+  </entry>
 </feed>
-
