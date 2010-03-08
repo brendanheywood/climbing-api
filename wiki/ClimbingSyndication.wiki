@@ -34,6 +34,8 @@ http://code.google.com/apis/youtube/2.0/reference.html
 
 6) Like Atom entries a route must be identifiable _across_ climbing sites - so if one site imports routes into another there is still a link so they are NOT duplicated.
 
+7) Routes get merged or get found as duds - we needs a way to delete them and notify that they are gone.
+
 
 = XML element definitions =
 
@@ -54,6 +56,7 @@ These are the XML schemas used by this spec.
 || Field || XML element || Example || Data type ||
 || id || atom:id || tag:au.nsw.armidale.gara.n11 || URI ||
 || Rating || gd:rating || <gd:rating min='1' max='5' numRaters='1914' average='4.24'/> || 4 star ||
+|| Deletion || gd:deleted || <gd:deleted /> || This route was deleted ||
 || URL of detail page || atom:link || climbing.com/au/nsw/gara/N1 || URL ||
 || Last mod || atom:updated || 11 Feb 2010 || Date ||
 || Name || atom:title || Icarus || String ||
