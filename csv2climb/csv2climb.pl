@@ -29,7 +29,6 @@ for(my $c=0; $c<=$#header; $c++){
 
 my $count = 0;
 foreach my $line (<>){
-	if ($count++ > 10){ last; }
 	chomp $line;
 	my @data = split(',', $line);
 	my %data = ();
