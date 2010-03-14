@@ -38,6 +38,7 @@ foreach my $line (<>){
 	
 	print '<entry>';
 	print "<title>$data{'title'}</title>";
+	print "<content>$data{'title'}</content>";
 	print "<georss:point>$data{'lat'} $data{'long'}</georss:point>";
 	print "</entry>\n";
 #	<georss:point$lat,$long</georss:point>
