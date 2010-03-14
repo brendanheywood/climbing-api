@@ -41,7 +41,7 @@ foreach my $line (<>){
 #	<georss:point$lat,$long</georss:point>
 
 }
-print "</channel>\n";
+print "</feed>\n";
 
 
 
