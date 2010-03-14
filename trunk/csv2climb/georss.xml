@@ -4,8 +4,9 @@
       xmlns:gml="http://www.opengis.net/gml"
       xmlns:dc="http://purl.org/dc/elements/1.1/"
       xmlns:gd="http://schemas.google.com/g/2005">
-<author>Brendan Heywood</author>
-<id>nothing</id>
+<author><name>Brendan Heywood</name></author>
+<id>http://nothing.com/notsure</id>
+<title>cvs dump</title>
 <entry><title>CRACK</title><content>CRACK</content><georss:point>-30.602233 151.797317</georss:point></entry>
 <entry><title>3 CRACK</title><content>3 CRACK</content><georss:point>-30.602217 151.797517</georss:point></entry>
 <entry><title>3 STAR</title><content>3 STAR</content><georss:point>-30.602867 151.799167</georss:point></entry>
