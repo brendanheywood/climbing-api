@@ -9,6 +9,8 @@ print <<EOF;
       xmlns:gml="http://www.opengis.net/gml"
       xmlns:dc="http://purl.org/dc/elements/1.1/"
       xmlns:gd="http://schemas.google.com/g/2005">
+<author>Brendan Heywood</author>
+<id>nothing</id>
 EOF
 
 my $header = <>;
