@@ -6,15 +6,15 @@
       xmlns:gd="http://schemas.google.com/g/2005">
 <author>Brendan Heywood</author>
 <id>nothing</id>
-<entry><title>CRACK</title><georss:point>-30.602233 151.797317</georss:point></entry>
-<entry><title>3 CRACK</title><georss:point>-30.602217 151.797517</georss:point></entry>
-<entry><title>3 STAR</title><georss:point>-30.602867 151.799167</georss:point></entry>
-<entry><title>30 DEGREE</title><georss:point>-30.60035 151.801233</georss:point></entry>
-<entry><title>ALEX</title><georss:point>-30.600717 151.801033</georss:point></entry>
-<entry><title>ARETE</title><georss:point>-30.601033 151.803483</georss:point></entry>
-<entry><title>AUZZIE Rock</title><georss:point>-30.603433 151.79885</georss:point></entry>
-<entry><title>Little AYERS</title><georss:point>-30.600917 151.800917</georss:point></entry>
-<entry><title>BEGINSLAB  2</title><georss:point>-30.598683 151.810667</georss:point></entry>
-<entry><title>BIG EZ SLAB</title><georss:point>-30.6006 151.803917</georss:point></entry>
-<entry><title>BIG JUG ARETE</title><georss:point>-30.597767 151.810467</georss:point></entry>
+<entry><title>CRACK</title><content>CRACK</content><georss:point>-30.602233 151.797317</georss:point></entry>
+<entry><title>3 CRACK</title><content>3 CRACK</content><georss:point>-30.602217 151.797517</georss:point></entry>
+<entry><title>3 STAR</title><content>3 STAR</content><georss:point>-30.602867 151.799167</georss:point></entry>
+<entry><title>30 DEGREE</title><content>30 DEGREE</content><georss:point>-30.60035 151.801233</georss:point></entry>
+<entry><title>ALEX</title><content>ALEX</content><georss:point>-30.600717 151.801033</georss:point></entry>
+<entry><title>ARETE</title><content>ARETE</content><georss:point>-30.601033 151.803483</georss:point></entry>
+<entry><title>AUZZIE Rock</title><content>AUZZIE Rock</content><georss:point>-30.603433 151.79885</georss:point></entry>
+<entry><title>Little AYERS</title><content>Little AYERS</content><georss:point>-30.600917 151.800917</georss:point></entry>
+<entry><title>BEGINSLAB  2</title><content>BEGINSLAB  2</content><georss:point>-30.598683 151.810667</georss:point></entry>
+<entry><title>BIG EZ SLAB</title><content>BIG EZ SLAB</content><georss:point>-30.6006 151.803917</georss:point></entry>
+<entry><title>BIG JUG ARETE</title><content>BIG JUG ARETE</content><georss:point>-30.597767 151.810467</georss:point></entry>
 </feed>
