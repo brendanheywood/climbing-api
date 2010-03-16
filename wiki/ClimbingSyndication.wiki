@@ -2,6 +2,8 @@
 
 = Introduction =
 
+a.k.a a 'RouteFeed'
+
 This syndication format builds on the Atom, MediaRSS and GeoRSS specs to represent a set of climbing routes. In the context of climbing certain fields may take on more special meaning than in the underlying specification. It gets lots of ideas from the Google Data spec which is also based of Atom.
 
 For consuming this feed,paging and searching is supported through the use of the opensearch xmlns in the same manner as GoogleData.
