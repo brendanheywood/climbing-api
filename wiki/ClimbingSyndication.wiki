@@ -63,7 +63,8 @@ These are the XML schemas used by this spec.
 || Last mod || atom:updated || 11 Feb 2010 || Date ||
 || Name || atom:title || Icarus || String ||
 || Grade system || dc:type|| V || String (V, Ewbank, etc - lock down choices) ||
-|| Height / Grade || dc:format || 6m, V3 || String - format depends on system, can be repeated for multiple pitches ||
+|| Grade || dc:format || V3 || String - format depends on system, can be repeated for multiple pitches ||
+|| Height || dc:extent || 6m || String - must have units at end 'm' 'f' ||
 || Description || atom:content || Thin hard crimps || String ||
 || Flags (eg Danger, Highball) || atom:category || Danger, Highball ||
 || First Ascender || atom:author || Fred Nicole || String ||
