@@ -74,7 +74,7 @@ These are the XML schemas used by this spec.
 || License for data || dc:license || Creative Commons Share Alike etc || Free text ||
 || Link to image || media:thumbnail || url="http://example.com/pl_thumbs/A.jpg" || URL ||
 || Link to image || media:content || url="http://example.com/pl_thumbs/A.jpg" || URL ||
-|| Related climbs (eg variant) || atom:link || <link rel="related" href="http://search.example.com/"/> || Url ||
+|| Related climbs (eg variant) || atom:link || <link rel="related" href="http://search.example.com/"/> || Uri MUST match id of the related route ||
 || Last mod date || atom:updated || 2010 || Date ||
 || Geometry of route overlaid onto photo ||svg:path || <path d="M50,50 L100,100" /> || Style should be omitted and added by client ||
 || Lat / long  || georss:point || -31.1234 30.13414 ||
