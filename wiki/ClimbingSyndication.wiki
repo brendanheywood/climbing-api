@@ -70,7 +70,7 @@ These are the XML schemas used by this spec.
 || Seconder / spotter || atom:contributor || Little Jimmy || String ||
 || First Ascender date || dc:date || 2000 Jan || DC allows partial dates ||
 || First published date || atom:published || 2000 Jan 01 || Date ||
-|| Rights to this data || atom:rights || Creative Commons Share Alike etc || Free text ||
+|| License for data || dc:license || Creative Commons Share Alike etc || Free text ||
 || Link to image || media:thumbnail || url="http://example.com/pl_thumbs/A.jpg" || URL ||
 || Link to image || media:content || url="http://example.com/pl_thumbs/A.jpg" || URL ||
 || Related climbs (eg variant) || atom:link || <link rel="related" href="http://search.example.com/"/> || Url ||
@@ -79,5 +79,10 @@ These are the XML schemas used by this spec.
 || Lat / long  || georss:point || -31.1234 30.13414 ||
 || alt of route || georss:elev || 960m ||
 || Left and right routes (important for old guides with no lat long) could be inferred from topo geometry || atom:link || <link rel="next" href="..."/> || ||
+|| Language || dc:language || EN || Normal dc language codes ||
+|| Access permission from || dc:mediator || Fred Smith 02 1234 567 || Text ||
+|| rock type || dc:medium || Granite || Free text - but suggested vocabulary ||
+
+
 
 All field of these are optional except the atom:id.
