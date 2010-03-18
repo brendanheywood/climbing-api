@@ -78,7 +78,7 @@ These are the XML schemas used by this spec.
 || Last mod date || atom:updated || 2010 || Date ||
 || Geometry of route overlaid onto photo ||svg:path || <path d="M50,50 L100,100" /> || Style should be omitted and added by client ||
 || Lat / long  || georss:point || -31.1234 30.13414 ||
-|| accuracy or lat long data || ??? || 4m, 10, 100m || Could be GPS, or Cell tower etc ||
+|| Accuracy of lat long data || ??? || 4m, 10, 100m || Could be GPS, or Cell tower etc ||
 || alt of route || georss:elev || 960m ||
 || Left and right routes (important for old guides with no lat long) could be inferred from topo geometry || atom:link || <link rel="next" href="..."/> || ||
 || Language || dc:language || EN || Normal dc language codes ||
