@@ -8,13 +8,16 @@ print <<EOF;
       xmlns:georss="http://www.georss.org/georss" 
       xmlns:gml="http://www.opengis.net/gml"
       xmlns:dc="http://purl.org/dc/elements/1.1/"
-      xmlns:gd="http://schemas.google.com/g/2005">
+      xmlns:gd="http://schemas.google.com/g/2005"
       xmlns:x="http://schemas.google.com/g/2005"
 >
 <author><name>Brendan Heywood</name></author>
 <id>http://nothing.com/notsure</id>
 <title>cvs dump</title>
 EOF
+
+
+my $idPrefix = 'http://www.test.com/';
 
 my $header = <>;
 
@@ -62,13 +65,13 @@ foreach my $line (<>){
 	}
 	
 	print '<entry>';
-	print field('id',             $data{'id'});
+	print field('id',             $idPrefix.$data{'id'});
 
 	print field('title',          $data{'title'});
 	print field('content',        $data{'content'});
 
 	print '<author>';
-	print field('name',         $data{'fa'});
+	print field('name',           $data{'fa'});
 	print '</author>';
 	print field('dc:date',        $data{'faYear'});
 
