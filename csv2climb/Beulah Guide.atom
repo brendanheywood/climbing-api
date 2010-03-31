@@ -3,13 +3,13 @@
       xmlns:georss="http://www.georss.org/georss" 
       xmlns:gml="http://www.opengis.net/gml"
       xmlns:dc="http://purl.org/dc/elements/1.1/"
-      xmlns:gd="http://schemas.google.com/g/2005">
+      xmlns:gd="http://schemas.google.com/g/2005"
       xmlns:x="http://schemas.google.com/g/2005"
 >
 <author><name>Brendan Heywood</name></author>
 <id>http://nothing.com/notsure</id>
 <title>cvs dump</title>
-<entry>	<id>190</id>
+<entry>	<id>http://www.test.com/190</id>
 	<title>Old Fashioned &lt; Thrutching &amp; &gt; stuff</title>
 	<content>Up the low angle wide crack, via old fashioned thrutching.</content>
 <author>	<name>B.Heywood</name>
@@ -20,7 +20,7 @@
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fuhorO16I/AAAAAAAADeY/OYm1q4yC4DA/s400/DSCN1459.JPG" />
 	<georss:point>-30.47277 150.92193</georss:point>
 </entry>
-<entry>	<id>224</id>
+<entry>	<id>http://www.test.com/224</id>
 	<title>Lip Service</title>
 	<content>SDS on right and climb left up the arete to the top of boulder.</content>
 <author>	<name>T.Free</name>
@@ -33,7 +33,7 @@
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fsmxixtsI/AAAAAAAACKI/OgsZD1_wbns/s400/DSCN1394.JPG" />
 	<georss:point>-30.48515 150.92538</georss:point>
 </entry>
-<entry>	<id>229</id>
+<entry>	<id>http://www.test.com/229</id>
 	<title>Spaceship Landing</title>
 	<content>Up the blunt well featured arete on the southeast corner of boulder.</content>
 <author>	<name>T.Free</name>
@@ -46,7 +46,7 @@
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fsWCvQqOI/AAAAAAAACI4/vNELbyjAbuU/s400/DSCN1385.JPG" />
 	<georss:point>-30.48523 150.92642</georss:point>
 </entry>
-<entry>	<id>230</id>
+<entry>	<id>http://www.test.com/230</id>
 	<title>No Messin Round</title>
 	<content>SDS.  Up the short steep face.</content>
 <author>	<name>B.Heywood</name>
@@ -59,7 +59,7 @@
 	<media:content url="http://lh5.ggpht.com/_9JcAdobytCc/S6fshZ08_CI/AAAAAAAACJs/2GRI0OqBytI/s400/DSCN1391.JPG" />
 	<georss:point>-30.48528 150.92539</georss:point>
 </entry>
-<entry>	<id>230.1</id>
+<entry>	<id>http://www.test.com/230.1</id>
 	<title>Un-Named</title>
 	<content>Very easy short mantel.</content>
 <author>	<name>G.Free</name>
@@ -71,7 +71,7 @@
 	<media:content url="http://lh6.ggpht.com/_9JcAdobytCc/S6fslM7-z7I/AAAAAAAADQk/9p-xH8WTk3k/s400/DSCN1393.JPG" />
 	<georss:point>-30.48528 150.92539</georss:point>
 </entry>
-<entry>	<id>231</id>
+<entry>	<id>http://www.test.com/231</id>
 	<title>Scoop</title>
 	<content>Up the slight scoop/corner.  May need another light scrub.</content>
 <author>	<name>Unknown</name>
@@ -82,7 +82,7 @@
 	<media:content url="http://lh5.ggpht.com/_9JcAdobytCc/S6fssYSIZII/AAAAAAAACKg/L7y69G7M0rI/s400/DSCN1397.JPG" />
 	<georss:point>-30.48511 150.92532</georss:point>
 </entry>
-<entry>	<id>222</id>
+<entry>	<id>http://www.test.com/222</id>
 	<title>Born Too Slow</title>
 	<content>Start low on edges, up to large square crystal, pull on these up through bulge.</content>
 <author>	<name>T.Free</name>
@@ -95,7 +95,7 @@
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fr267xk2I/AAAAAAAACGg/x2GW4thqQ8w/s400/DSCN1366.JPG" />
 	<georss:point>-30.47795 150.93084</georss:point>
 </entry>
-<entry>	<id>222.1</id>
+<entry>	<id>http://www.test.com/222.1</id>
 	<title>Un-Named</title>
 	<content>SDS on small edges up arete to sloping mantel to out.</content>
 <author>	<name>B.Heywood</name>
@@ -108,7 +108,7 @@
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fr267xk2I/AAAAAAAACGg/x2GW4thqQ8w/s400/DSCN1366.JPG" />
 	<georss:point>-30.47795 150.93084</georss:point>
 </entry>
-<entry>	<id>223</id>
+<entry>	<id>http://www.test.com/223</id>
 	<title>EZ Like Sunday Morning</title>
 	<content>The very easy low angle arete on left half of split boulder.</content>
 <author>	<name>T.Free</name>
@@ -120,7 +120,7 @@
 	<media:content url="http://lh5.ggpht.com/_9JcAdobytCc/S6fr6WLw17I/AAAAAAAACGw/fbVjgIbrDMM/s400/DSCN1368.JPG" />
 	<georss:point>-30.47819 150.93106</georss:point>
 </entry>
-<entry>	<id>227</id>
+<entry>	<id>http://www.test.com/227</id>
 	<title>Eight Ball</title>
 	<content>Up twin cracks.</content>
 <author>	<name>T.Free</name>
@@ -132,7 +132,7 @@
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fr8G_ocDI/AAAAAAAADLc/IEIcvtFVAs4/s400/DSCN1369.JPG" />
 	<georss:point>-30.47882 150.93104</georss:point>
 </entry>
-<entry>	<id>227.1</id>
+<entry>	<id>http://www.test.com/227.1</id>
 	<title>Corner Pocket</title>
 	<content>Easy mantel off good edge.</content>
 <author>	<name>T.Free</name>
@@ -144,7 +144,7 @@
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fr8G_ocDI/AAAAAAAADLc/IEIcvtFVAs4/s400/DSCN1369.JPG" />
 	<georss:point>-30.47882 150.93104</georss:point>
 </entry>
-<entry>	<id>100</id>
+<entry>	<id>http://www.test.com/100</id>
 	<title>Cape Horn</title>
 	<content>Start on the large undercling, slap up this feature to horizontal cracks then up.</content>
 <author>	<name>A.Smith</name>
@@ -157,7 +157,7 @@
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fqsaybV2I/AAAAAAAADCI/DcMg73dDBUc/s400/DSCN1323.JPG" />
 	<georss:point>-30.46857 150.92418</georss:point>
 </entry>
-<entry>	<id>100.1</id>
+<entry>	<id>http://www.test.com/100.1</id>
 	<title>High Times</title>
 	<content>Up the shallow groove to the right of Cape Horn.</content>
 <author>	<name>Unknown</name>
@@ -169,7 +169,7 @@
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fqsaybV2I/AAAAAAAADCI/DcMg73dDBUc/s400/DSCN1323.JPG" />
 	<georss:point>-30.46857 150.92418</georss:point>
 </entry>
-<entry>	<id>100.2</id>
+<entry>	<id>http://www.test.com/100.2</id>
 	<title>Mutton Bird</title>
 	<content>Start on right facing small corner, pull up and go.</content>
 <author>	<name>B.Heywood</name>
@@ -181,7 +181,7 @@
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fqsaybV2I/AAAAAAAADCI/DcMg73dDBUc/s400/DSCN1323.JPG" />
 	<georss:point>-30.46857 150.92418</georss:point>
 </entry>
-<entry>	<id>100.3</id>
+<entry>	<id>http://www.test.com/100.3</id>
 	<title>High Mutton</title>
 	<content>Using the shallow groove of High Times and corner of Mutton Bird go up between them.</content>
 <author>	<name>T.Free</name>
@@ -193,7 +193,7 @@
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fqsaybV2I/AAAAAAAADCI/DcMg73dDBUc/s400/DSCN1323.JPG" />
 	<georss:point>-30.46857 150.92418</georss:point>
 </entry>
-<entry>	<id>100.4</id>
+<entry>	<id>http://www.test.com/100.4</id>
 	<title>Daylight Fading</title>
 	<content>Start high in pocket/crack, pull up and mantel.  Done</content>
 <author>	<name>T.Free</name>
@@ -205,7 +205,7 @@
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fqtrG-GMI/AAAAAAAADCU/5QJ8w_wWOKM/s400/DSCN1324.JPG" />
 	<georss:point>-30.46857 150.92418</georss:point>
 </entry>
-<entry>	<id>100.5</id>
+<entry>	<id>http://www.test.com/100.5</id>
 	<title>Slope Up</title>
 	<content>Start high in sloping dish, mantel.</content>
 <author>	<name>Unknown</name>
@@ -217,7 +217,7 @@
 	<media:content url="http://lh6.ggpht.com/_9JcAdobytCc/S6fqpBVCt1I/AAAAAAAADBw/z12L4PgdRY4/s400/DSCN1321.JPG" />
 	<georss:point>-30.46857 150.92418</georss:point>
 </entry>
-<entry>	<id>100.6</id>
+<entry>	<id>http://www.test.com/100.6</id>
 	<title>The Undercling</title>
 	<content>Start high on big underlcing, up to sloper, mantel. Done</content>
 <author>	<name>Unknown</name>
@@ -229,7 +229,7 @@
 	<media:content url="http://lh6.ggpht.com/_9JcAdobytCc/S6fqpBVCt1I/AAAAAAAADBw/z12L4PgdRY4/s400/DSCN1321.JPG" />
 	<georss:point>-30.46857 150.92418</georss:point>
 </entry>
-<entry>	<id>100.7</id>
+<entry>	<id>http://www.test.com/100.7</id>
 	<title>Way Down</title>
 	<content>Obvious crack on southeast face. Climb up or down it.</content>
 <author>	<name>Unknown</name>
@@ -241,7 +241,7 @@
 	<media:content url="http://lh6.ggpht.com/_9JcAdobytCc/S6fqpBVCt1I/AAAAAAAADBw/z12L4PgdRY4/s400/DSCN1321.JPG" />
 	<georss:point>-30.46857 150.92418</georss:point>
 </entry>
-<entry>	<id>235</id>
+<entry>	<id>http://www.test.com/235</id>
 	<title>Scar Tissue</title>
 	<content>The hand/fist crack on the south face of boulder.  Steep and leans to the right. Gear to 4"".  Gear anchor required.</content>
 <author>	<name>T.Free</name>
@@ -254,7 +254,7 @@
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fnw1XN3RI/AAAAAAAACrg/WaEOSBu8K6U/s400/DSCN1218.JPG" />
 	<georss:point>-30.4978 150.91316</georss:point>
 </entry>
-<entry>	<id>237</id>
+<entry>	<id>http://www.test.com/237</id>
 	<title>Tribute to Dangles</title>
 	<content>Follow 8 bolts up steep improbable looking line of thin crimps.  Chain anchor.</content>
 <author>	<name>A.Smith</name>
@@ -269,7 +269,7 @@
 	<media:content url="http://lh3.ggpht.com/_9JcAdobytCc/S6fn3REChRI/AAAAAAAACsU/Tdp-ZAdmwpY/s400/DSCN1222.JPG" />
 	<georss:point>-30.49702 150.91395</georss:point>
 </entry>
-<entry>	<id>245</id>
+<entry>	<id>http://www.test.com/245</id>
 	<title>Saturdays Route</title>
 	<content>Up the arete left of the very wide crack past bolts to chain anchor.</content>
 <author>	<name>T.Free</name>
