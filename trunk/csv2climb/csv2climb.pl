@@ -21,7 +21,11 @@ my %col2head = ();
 for(my $c=0; $c<=$#header; $c++){
 	my $head = $header[$c];
 	$head =~ s/\{|\}//g;
+	$head =~ s/\[.*\]//g;
+	$head =~ s/:.*$//g;
 	$head =~ s/label/title/g;
+	$head =~ s/desc/content/g;
+	chomp $head;
 #	print "colr $c = $head \n";
 	$col2head{$c} = $head;
 }
@@ -29,22 +33,86 @@ for(my $c=0; $c<=$#header; $c++){
 
 my $count = 0;
 foreach my $line (<>){
+	if ($count++ > 1){ last; }
 	chomp $line;
-	my @data = split(',', $line);
+
+	my @data = ();
+
+	while ($line){
+
+		if ($line =~ s/^"(.*?)",//){
+			push @data, $1;
+			next;
+		}
+		if ($line =~ s/^(.*?),//){
+			push @data, $1;
+			next;
+		}
+		push @data, $line;
+		$line = '';
+	}
+
 	my %data = ();
 	for(my $col=0; $col <= $#data; $col++){
 		$data{$col2head{$col}} = $data[$col];
 	}
 	
 	print '<entry>';
-	print "<title>$data{'title'}</title>";
-	print "<content>$data{'title'}</content>";
-	print "<georss:point>$data{'lat'} $data{'long'}</georss:point>";
-	print "</entry>\n";
-#	<georss:point$lat,$long</georss:point>
+	print field('id',             $data{'id'});
 
+	print field('title',          $data{'title'});
+	print field('content',        $data{'content'});
+
+	print field('author',         $data{'fa'});
+	print field('dc:date',        $data{'faYear'});
+
+	print field('x:area',         $data{'area'});
+	print field('x:subarea',      $data{'subarea'});
+	print field('x:bolts',        $data{'bolts'});
+
+	print field('gd:rating',      $data{'rating'});
+
+	print field('dc:type',        $data{'system'});
+	print field('dc:format',      $data{'grade'});
+	print field('dc:extent',      $data{'height'});
+
+
+	print field('media:content',  $data{'imageUrl'}, 'url');
+
+
+
+	print field('georss:point',  $data{'lat'} .' '.$data{'long'});
+	print field('x:direction',   $data{'direction'} );
+	print field('xelevation',    $data{'elevation'} );
+
+	foreach my $key (keys %data){
+#		print $key.' => '.$data{$key}." \n";
+	}
+
+	print "</entry>\n";
 }
+
+
 print "</feed>\n";
 
+exit;
+
+sub field {
+	my ($elem, $value, $attr) = (@_);
+	if (!$value || $value =~ /^\s*$/){
+		return "";
+	}
+	if ($attr){
+		$value =~ s/&/&amp;/g;
+		$value =~ s/</&lt;/g;
+		$value =~ s/>/&gt;/g;
+		return "\t<$elem $attr=\"$value\" />\n";
+	}
+	$value =~ s/&/&amp;/g;
+	$value =~ s/</&lt;/g;
+	$value =~ s/>/&gt;/g;
+	return "\t<$elem>$value</$elem>\n";
+
+}
 
 
