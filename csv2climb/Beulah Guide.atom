@@ -4,6 +4,8 @@
       xmlns:gml="http://www.opengis.net/gml"
       xmlns:dc="http://purl.org/dc/elements/1.1/"
       xmlns:gd="http://schemas.google.com/g/2005">
+      xmlns:x="http://schemas.google.com/g/2005"
+>
 <author><name>Brendan Heywood</name></author>
 <id>http://nothing.com/notsure</id>
 <title>cvs dump</title>
@@ -282,5 +284,4 @@
 	<media:content url="http://lh3.ggpht.com/_9JcAdobytCc/S6fm9ViKblI/AAAAAAAACl0/2xFiKSA_CUM/s400/DSCN1191.JPG" />
 	<georss:point>-30.497349 150.914448</georss:point>
 </entry>
-<entry><author></author></entry>
 </feed>

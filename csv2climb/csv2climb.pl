@@ -9,6 +9,8 @@ print <<EOF;
       xmlns:gml="http://www.opengis.net/gml"
       xmlns:dc="http://purl.org/dc/elements/1.1/"
       xmlns:gd="http://schemas.google.com/g/2005">
+      xmlns:x="http://schemas.google.com/g/2005"
+>
 <author><name>Brendan Heywood</name></author>
 <id>http://nothing.com/notsure</id>
 <title>cvs dump</title>
@@ -33,10 +35,12 @@ for(my $c=0; $c<=$#header; $c++){
 
 my $count = 0;
 foreach my $line (<>){
-	if ($count++ > 1){ last; }
+	#if ($count++ > 1){ last; }
 	chomp $line;
 
 	my @data = ();
+
+	if ($line =~ /^\s*$/){ last; }
 
 	while ($line){
 
@@ -63,7 +67,9 @@ foreach my $line (<>){
 	print field('title',          $data{'title'});
 	print field('content',        $data{'content'});
 
-	print field('author',         $data{'fa'});
+	print '<author>';
+	print field('name',         $data{'fa'});
+	print '</author>';
 	print field('dc:date',        $data{'faYear'});
 
 	print field('x:area',         $data{'area'});
