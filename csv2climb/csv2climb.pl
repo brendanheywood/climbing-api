@@ -10,7 +10,7 @@ print <<EOF;
       xmlns:dc="http://purl.org/dc/elements/1.1/"
       xmlns:gd="http://schemas.google.com/g/2005"
       xmlns:media="http://search.yahoo.com/mrss/"
-      xmlns:x="http://schemas.google.com/g/2005"
+      xmlns:x="http://www.unknown.com/"
 >
 <author><name>Brendan Heywood</name></author>
 <id>http://nothing.com/notsure</id>
@@ -67,35 +67,36 @@ foreach my $line (<>){
 	}
 	
 	print '<entry>';
-	print field('id',             $idPrefix.$data{'id'});
+	print field('id',              $idPrefix.$data{'id'});
 
-	print field('title',          "$data{'grade'} $data{'title'} " . '*' x $data{'rating'}. " $data{'height'}");
-	print field('summary',        $data{'title'});
-	print field('content',        $data{'content'});
+	print field('title',           "$data{'grade'} $data{'title'} " . '*' x $data{'rating'}. " $data{'height'}");
+	print field('summary',         $data{'title'});
+	print field('content',         $data{'content'});
 
 	print '<author>';
-	print field('name',           $data{'fa'});
+	print field('name',            $data{'fa'});
 	print '</author>';
-	print field('dc:date',        $data{'faYear'});
+	print field('dc:date',         $data{'faYear'});
 
-	print field('x:area',         $data{'area'});
-	print field('x:subarea',      $data{'subarea'});
-	print field('x:bolts',        $data{'bolts'});
+	print field('x:area',          $data{'area'});
+	print field('x:subarea',       $data{'subarea'});
+	print field('x:bolts',         $data{'bolts'});
 
-	print field('gd:rating',      $data{'rating'});
+	print field('gd:rating',       $data{'rating'});
 
-	print field('dc:type',        $data{'system'});
-	print field('dc:format',      $data{'grade'});
-	print field('dc:extent',      $data{'height'});
-
-
-	print field('media:content',  $data{'imageUrl'}, 'url');
+	print field('dc:type',         $data{'system'});
+	print field('dc:format',       $data{'grade'});
+	print field('dc:extent',       $data{'height'});
 
 
+	print field('media:content',   $data{'imageUrl'}, 'url');
+	print field('media:thumbnail', $data{'imageUrl'}, 'url');
 
-	print field('georss:point',  $data{'lat'} .' '.$data{'long'});
-	print field('x:direction',   $data{'direction'} );
-	print field('xelevation',    $data{'elevation'} );
+
+
+	print field('georss:point',    $data{'lat'} .' '.$data{'long'});
+	print field('x:direction',     $data{'direction'} );
+	print field('xelevation',      $data{'elevation'} );
 
 	foreach my $key (keys %data){
 #		print $key.' => '.$data{$key}." \n";

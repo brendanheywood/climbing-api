@@ -5,7 +5,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/"
       xmlns:gd="http://schemas.google.com/g/2005"
       xmlns:media="http://search.yahoo.com/mrss/"
-      xmlns:x="http://schemas.google.com/g/2005"
+      xmlns:x="http://www.unknown.com/"
 >
 <author><name>Brendan Heywood</name></author>
 <id>http://nothing.com/notsure</id>
@@ -21,6 +21,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V0-</dc:format>
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fuhorO16I/AAAAAAAADeY/OYm1q4yC4DA/s400/DSCN1459.JPG" />
+	<media:thumbnail url="http://lh4.ggpht.com/_9JcAdobytCc/S6fuhorO16I/AAAAAAAADeY/OYm1q4yC4DA/s400/DSCN1459.JPG" />
 	<georss:point>-30.47277 150.92193</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/224</id>
@@ -35,6 +36,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V2</dc:format>
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fsmxixtsI/AAAAAAAACKI/OgsZD1_wbns/s400/DSCN1394.JPG" />
+	<media:thumbnail url="http://lh4.ggpht.com/_9JcAdobytCc/S6fsmxixtsI/AAAAAAAACKI/OgsZD1_wbns/s400/DSCN1394.JPG" />
 	<georss:point>-30.48515 150.92538</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/229</id>
@@ -49,6 +51,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V1</dc:format>
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fsWCvQqOI/AAAAAAAACI4/vNELbyjAbuU/s400/DSCN1385.JPG" />
+	<media:thumbnail url="http://lh4.ggpht.com/_9JcAdobytCc/S6fsWCvQqOI/AAAAAAAACI4/vNELbyjAbuU/s400/DSCN1385.JPG" />
 	<georss:point>-30.48523 150.92642</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/230</id>
@@ -63,6 +66,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V4</dc:format>
 	<media:content url="http://lh5.ggpht.com/_9JcAdobytCc/S6fshZ08_CI/AAAAAAAACJs/2GRI0OqBytI/s400/DSCN1391.JPG" />
+	<media:thumbnail url="http://lh5.ggpht.com/_9JcAdobytCc/S6fshZ08_CI/AAAAAAAACJs/2GRI0OqBytI/s400/DSCN1391.JPG" />
 	<georss:point>-30.48528 150.92539</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/230.1</id>
@@ -76,6 +80,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V0-</dc:format>
 	<media:content url="http://lh6.ggpht.com/_9JcAdobytCc/S6fslM7-z7I/AAAAAAAADQk/9p-xH8WTk3k/s400/DSCN1393.JPG" />
+	<media:thumbnail url="http://lh6.ggpht.com/_9JcAdobytCc/S6fslM7-z7I/AAAAAAAADQk/9p-xH8WTk3k/s400/DSCN1393.JPG" />
 	<georss:point>-30.48528 150.92539</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/231</id>
@@ -88,6 +93,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V1</dc:format>
 	<media:content url="http://lh5.ggpht.com/_9JcAdobytCc/S6fssYSIZII/AAAAAAAACKg/L7y69G7M0rI/s400/DSCN1397.JPG" />
+	<media:thumbnail url="http://lh5.ggpht.com/_9JcAdobytCc/S6fssYSIZII/AAAAAAAACKg/L7y69G7M0rI/s400/DSCN1397.JPG" />
 	<georss:point>-30.48511 150.92532</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/222</id>
@@ -102,6 +108,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V2</dc:format>
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fr267xk2I/AAAAAAAACGg/x2GW4thqQ8w/s400/DSCN1366.JPG" />
+	<media:thumbnail url="http://lh4.ggpht.com/_9JcAdobytCc/S6fr267xk2I/AAAAAAAACGg/x2GW4thqQ8w/s400/DSCN1366.JPG" />
 	<georss:point>-30.47795 150.93084</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/222.1</id>
@@ -116,6 +123,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V4</dc:format>
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fr267xk2I/AAAAAAAACGg/x2GW4thqQ8w/s400/DSCN1366.JPG" />
+	<media:thumbnail url="http://lh4.ggpht.com/_9JcAdobytCc/S6fr267xk2I/AAAAAAAACGg/x2GW4thqQ8w/s400/DSCN1366.JPG" />
 	<georss:point>-30.47795 150.93084</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/223</id>
@@ -129,6 +137,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V0-</dc:format>
 	<media:content url="http://lh5.ggpht.com/_9JcAdobytCc/S6fr6WLw17I/AAAAAAAACGw/fbVjgIbrDMM/s400/DSCN1368.JPG" />
+	<media:thumbnail url="http://lh5.ggpht.com/_9JcAdobytCc/S6fr6WLw17I/AAAAAAAACGw/fbVjgIbrDMM/s400/DSCN1368.JPG" />
 	<georss:point>-30.47819 150.93106</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/227</id>
@@ -142,6 +151,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V0-</dc:format>
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fr8G_ocDI/AAAAAAAADLc/IEIcvtFVAs4/s400/DSCN1369.JPG" />
+	<media:thumbnail url="http://lh4.ggpht.com/_9JcAdobytCc/S6fr8G_ocDI/AAAAAAAADLc/IEIcvtFVAs4/s400/DSCN1369.JPG" />
 	<georss:point>-30.47882 150.93104</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/227.1</id>
@@ -155,6 +165,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V0-</dc:format>
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fr8G_ocDI/AAAAAAAADLc/IEIcvtFVAs4/s400/DSCN1369.JPG" />
+	<media:thumbnail url="http://lh4.ggpht.com/_9JcAdobytCc/S6fr8G_ocDI/AAAAAAAADLc/IEIcvtFVAs4/s400/DSCN1369.JPG" />
 	<georss:point>-30.47882 150.93104</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/100</id>
@@ -169,6 +180,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V4</dc:format>
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fqsaybV2I/AAAAAAAADCI/DcMg73dDBUc/s400/DSCN1323.JPG" />
+	<media:thumbnail url="http://lh4.ggpht.com/_9JcAdobytCc/S6fqsaybV2I/AAAAAAAADCI/DcMg73dDBUc/s400/DSCN1323.JPG" />
 	<georss:point>-30.46857 150.92418</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/100.1</id>
@@ -182,6 +194,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V1</dc:format>
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fqsaybV2I/AAAAAAAADCI/DcMg73dDBUc/s400/DSCN1323.JPG" />
+	<media:thumbnail url="http://lh4.ggpht.com/_9JcAdobytCc/S6fqsaybV2I/AAAAAAAADCI/DcMg73dDBUc/s400/DSCN1323.JPG" />
 	<georss:point>-30.46857 150.92418</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/100.2</id>
@@ -195,6 +208,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V2</dc:format>
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fqsaybV2I/AAAAAAAADCI/DcMg73dDBUc/s400/DSCN1323.JPG" />
+	<media:thumbnail url="http://lh4.ggpht.com/_9JcAdobytCc/S6fqsaybV2I/AAAAAAAADCI/DcMg73dDBUc/s400/DSCN1323.JPG" />
 	<georss:point>-30.46857 150.92418</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/100.3</id>
@@ -208,6 +222,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V2</dc:format>
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fqsaybV2I/AAAAAAAADCI/DcMg73dDBUc/s400/DSCN1323.JPG" />
+	<media:thumbnail url="http://lh4.ggpht.com/_9JcAdobytCc/S6fqsaybV2I/AAAAAAAADCI/DcMg73dDBUc/s400/DSCN1323.JPG" />
 	<georss:point>-30.46857 150.92418</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/100.4</id>
@@ -221,6 +236,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V0</dc:format>
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fqtrG-GMI/AAAAAAAADCU/5QJ8w_wWOKM/s400/DSCN1324.JPG" />
+	<media:thumbnail url="http://lh4.ggpht.com/_9JcAdobytCc/S6fqtrG-GMI/AAAAAAAADCU/5QJ8w_wWOKM/s400/DSCN1324.JPG" />
 	<georss:point>-30.46857 150.92418</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/100.5</id>
@@ -234,6 +250,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V0</dc:format>
 	<media:content url="http://lh6.ggpht.com/_9JcAdobytCc/S6fqpBVCt1I/AAAAAAAADBw/z12L4PgdRY4/s400/DSCN1321.JPG" />
+	<media:thumbnail url="http://lh6.ggpht.com/_9JcAdobytCc/S6fqpBVCt1I/AAAAAAAADBw/z12L4PgdRY4/s400/DSCN1321.JPG" />
 	<georss:point>-30.46857 150.92418</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/100.6</id>
@@ -247,6 +264,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V0</dc:format>
 	<media:content url="http://lh6.ggpht.com/_9JcAdobytCc/S6fqpBVCt1I/AAAAAAAADBw/z12L4PgdRY4/s400/DSCN1321.JPG" />
+	<media:thumbnail url="http://lh6.ggpht.com/_9JcAdobytCc/S6fqpBVCt1I/AAAAAAAADBw/z12L4PgdRY4/s400/DSCN1321.JPG" />
 	<georss:point>-30.46857 150.92418</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/100.7</id>
@@ -260,6 +278,7 @@
 	<dc:type>Hueco</dc:type>
 	<dc:format>V0-</dc:format>
 	<media:content url="http://lh6.ggpht.com/_9JcAdobytCc/S6fqpBVCt1I/AAAAAAAADBw/z12L4PgdRY4/s400/DSCN1321.JPG" />
+	<media:thumbnail url="http://lh6.ggpht.com/_9JcAdobytCc/S6fqpBVCt1I/AAAAAAAADBw/z12L4PgdRY4/s400/DSCN1321.JPG" />
 	<georss:point>-30.46857 150.92418</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/235</id>
@@ -274,6 +293,7 @@
 	<dc:format>17</dc:format>
 	<dc:extent>13</dc:extent>
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fnw1XN3RI/AAAAAAAACrg/WaEOSBu8K6U/s400/DSCN1218.JPG" />
+	<media:thumbnail url="http://lh4.ggpht.com/_9JcAdobytCc/S6fnw1XN3RI/AAAAAAAACrg/WaEOSBu8K6U/s400/DSCN1218.JPG" />
 	<georss:point>-30.4978 150.91316</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/237</id>
@@ -290,6 +310,7 @@
 	<dc:format>21</dc:format>
 	<dc:extent>27</dc:extent>
 	<media:content url="http://lh3.ggpht.com/_9JcAdobytCc/S6fn3REChRI/AAAAAAAACsU/Tdp-ZAdmwpY/s400/DSCN1222.JPG" />
+	<media:thumbnail url="http://lh3.ggpht.com/_9JcAdobytCc/S6fn3REChRI/AAAAAAAACsU/Tdp-ZAdmwpY/s400/DSCN1222.JPG" />
 	<georss:point>-30.49702 150.91395</georss:point>
 </entry>
 <entry>	<id>http://www.test.com/245</id>
@@ -306,6 +327,7 @@
 	<dc:format>14</dc:format>
 	<dc:extent>17</dc:extent>
 	<media:content url="http://lh3.ggpht.com/_9JcAdobytCc/S6fm9ViKblI/AAAAAAAACl0/2xFiKSA_CUM/s400/DSCN1191.JPG" />
+	<media:thumbnail url="http://lh3.ggpht.com/_9JcAdobytCc/S6fm9ViKblI/AAAAAAAACl0/2xFiKSA_CUM/s400/DSCN1191.JPG" />
 	<georss:point>-30.497349 150.914448</georss:point>
 </entry>
 </feed>
