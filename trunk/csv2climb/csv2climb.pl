@@ -69,7 +69,8 @@ foreach my $line (<>){
 	print '<entry>';
 	print field('id',             $idPrefix.$data{'id'});
 
-	print field('title',          $data{'title'});
+	print field('title',          "$data{'grade'} $data{'title'} " . '*' x $data{'rating'}. " $data{'height'}");
+	print field('summary',        $data{'title'});
 	print field('content',        $data{'content'});
 
 	print '<author>';
