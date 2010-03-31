@@ -15,6 +15,7 @@ print <<EOF;
 <author><name>Brendan Heywood</name></author>
 <id>http://nothing.com/notsure</id>
 <title>cvs dump</title>
+<update></update>
 EOF
 
 
