@@ -72,6 +72,7 @@ foreach my $line (<>){
 	print field('title',           "$data{'grade'} $data{'title'} " . '*' x $data{'rating'}. " $data{'height'}");
 	print field('summary',         $data{'title'});
 	print field('content',         $data{'content'});
+	print field('updated',         '2002-10-02T15:00:00Z');
 
 	print '<author>';
 	print field('name',            $data{'fa'});
