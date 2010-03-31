@@ -9,6 +9,7 @@ print <<EOF;
       xmlns:gml="http://www.opengis.net/gml"
       xmlns:dc="http://purl.org/dc/elements/1.1/"
       xmlns:gd="http://schemas.google.com/g/2005"
+      xmlns:media="http://search.yahoo.com/mrss/"
       xmlns:x="http://schemas.google.com/g/2005"
 >
 <author><name>Brendan Heywood</name></author>
