@@ -4,13 +4,14 @@ use strict;
 
 print <<EOF;
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" 
-      xmlns:georss="http://www.georss.org/georss" 
-      xmlns:gml="http://www.opengis.net/gml"
-      xmlns:dc="http://purl.org/dc/elements/1.1/"
-      xmlns:gd="http://schemas.google.com/g/2005"
-      xmlns:media="http://search.yahoo.com/mrss/"
-      xmlns:x="http://www.unknown.com/"
+<feed	xmlns="http://www.w3.org/2005/Atom" 
+	xmlns:georss="http://www.georss.org/georss" 
+	xmlns:gml="http://www.opengis.net/gml"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+ 	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:gd="http://schemas.google.com/g/2005"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:x="http://www.unknown.com/"
 >
 <author><name>Brendan Heywood</name></author>
 <id>http://nothing.com/notsure</id>
@@ -87,7 +88,7 @@ foreach my $line (<>){
 
 	print field('dc:type',         $data{'system'});
 	print field('dc:format',       $data{'grade'});
-	print field('dc:extent',       $data{'height'});
+	print field('dct:extent',       $data{'height'});
 
 
 	print field('media:content',   $data{'imageUrl'}, 'url');

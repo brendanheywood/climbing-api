@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" 
-      xmlns:georss="http://www.georss.org/georss" 
-      xmlns:gml="http://www.opengis.net/gml"
-      xmlns:dc="http://purl.org/dc/elements/1.1/"
-      xmlns:gd="http://schemas.google.com/g/2005"
-      xmlns:media="http://search.yahoo.com/mrss/"
-      xmlns:x="http://www.unknown.com/"
+<feed	xmlns="http://www.w3.org/2005/Atom" 
+	xmlns:georss="http://www.georss.org/georss" 
+	xmlns:gml="http://www.opengis.net/gml"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+ 	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:gd="http://schemas.google.com/g/2005"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:x="http://www.unknown.com/"
 >
 <author><name>Brendan Heywood</name></author>
 <id>http://nothing.com/notsure</id>
@@ -311,7 +312,7 @@
 	<gd:rating>2</gd:rating>
 	<dc:type>Ewbank</dc:type>
 	<dc:format>17</dc:format>
-	<dc:extent>13</dc:extent>
+	<dct:extent>13</dct:extent>
 	<media:content url="http://lh4.ggpht.com/_9JcAdobytCc/S6fnw1XN3RI/AAAAAAAACrg/WaEOSBu8K6U/s400/DSCN1218.JPG" />
 	<media:thumbnail url="http://lh4.ggpht.com/_9JcAdobytCc/S6fnw1XN3RI/AAAAAAAACrg/WaEOSBu8K6U/s400/DSCN1218.JPG" />
 	<georss:point>-30.4978 150.91316</georss:point>
@@ -329,7 +330,7 @@
 	<gd:rating>2</gd:rating>
 	<dc:type>Ewbank</dc:type>
 	<dc:format>21</dc:format>
-	<dc:extent>27</dc:extent>
+	<dct:extent>27</dct:extent>
 	<media:content url="http://lh3.ggpht.com/_9JcAdobytCc/S6fn3REChRI/AAAAAAAACsU/Tdp-ZAdmwpY/s400/DSCN1222.JPG" />
 	<media:thumbnail url="http://lh3.ggpht.com/_9JcAdobytCc/S6fn3REChRI/AAAAAAAACsU/Tdp-ZAdmwpY/s400/DSCN1222.JPG" />
 	<georss:point>-30.49702 150.91395</georss:point>
@@ -347,7 +348,7 @@
 	<gd:rating>1</gd:rating>
 	<dc:type>Ewbank</dc:type>
 	<dc:format>14</dc:format>
-	<dc:extent>17</dc:extent>
+	<dct:extent>17</dct:extent>
 	<media:content url="http://lh3.ggpht.com/_9JcAdobytCc/S6fm9ViKblI/AAAAAAAACl0/2xFiKSA_CUM/s400/DSCN1191.JPG" />
 	<media:thumbnail url="http://lh3.ggpht.com/_9JcAdobytCc/S6fm9ViKblI/AAAAAAAACl0/2xFiKSA_CUM/s400/DSCN1191.JPG" />
 	<georss:point>-30.497349 150.914448</georss:point>
