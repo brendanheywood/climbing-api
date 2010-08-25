@@ -66,7 +66,7 @@ These are the XML schemas used by this spec.
 || URL of detail page || atom:link || climbing.com/au/nsw/gara/N1 || URL ||
 || Last mod || atom:updated || 11 Feb 2010 || Date ||
 || Name || atom:title || Icarus || String ||
-|| Grade system || dc:type|| V || String (V, Ewbank, etc - lock down choices) ||
+|| Grade system || dc:type|| Heuco || String (Heuco, Ewbank, etc - lock down choices) ||
 || Grade || dc:format || V3 || String - format depends on system, can be repeated for multiple pitches ||
 || Height || dc:extent || 6m || String - must have units at end 'm' 'f' ||
 || Description || atom:content || Thin hard crimps || String ||
