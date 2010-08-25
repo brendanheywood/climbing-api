@@ -2,7 +2,7 @@
 
 = Goals =
 
-The goal of this project is to create specification for sharing climbing related data in an open way. 
+The goal of this project is to create specifications for sharing climbing related data in an open way. 
 
 
 = Climbing syndication =
