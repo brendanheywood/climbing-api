@@ -11,6 +11,10 @@ For consuming this feed,paging and searching is supported through the use of the
 In a way this proposal is a cut down version of the YouTube data API:
 http://code.google.com/apis/youtube/2.0/reference.html
 
+= TODO = 
+
+There are many holes in this specification such as how to model, topographical maps, overheads and representing the nested relationship of crags, cliffs, boulders etc.
+
 
 = Use cases =
 
