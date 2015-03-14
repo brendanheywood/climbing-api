@@ -1,0 +1,114 @@
+# Introduction #
+
+a.k.a a 'RouteFeed'
+
+This syndication format builds on the Atom, MediaRSS and GeoRSS specs to represent a set of climbing routes. In the context of climbing certain fields may take on more special meaning than in the underlying specification. It gets lots of ideas from the Google Data spec which is also based of Atom.
+
+For consuming this feed,paging and searching is supported through the use of the opensearch xmlns in the same manner as GoogleData.
+
+In a way this proposal is a cut down version of the YouTube data API:
+http://code.google.com/apis/youtube/2.0/reference.html
+
+# TODO #
+
+There are many holes in this specification such as how to model, topographical maps, overheads and representing the nested relationship of crags, cliffs, boulders etc.
+
+
+# Use cases #
+
+1) A mobile application could be a Climbing Syndication and subscribe one or multiple climbing databases. As new routes are published the mobile device periodically updates the guide.
+
+2) Backup and restore of climbing databases, possibly from one climbing database to another.
+
+3) Allow easy crawling of route data for search engines (Google already supports GeoRSS from Sitemaps)
+
+
+
+# Requirements #
+
+1) Must store all critical climbing route data typically found in most climbing guides. What makes that list up is below.
+
+2) FA dates need to be flexible to allow just a year or month or a detailed time. Old guides often have just a year or year and month.
+
+3) Be as flexible as possible - almost nothing should be required, data can be filled in later.
+
+4) Additional name spaces may be added (just like atom) to express more information about the climbs that we haven't thought of yet. (eg a site may store more info like climbing style but it will be in it's own name space)
+
+5) The client can request the whole set, or page though the set, or request all updates since a date.
+
+6) Like Atom entries a route must be identifiable _across_ climbing sites - so if one site imports routes into another there is still a link so they are NOT duplicated.
+
+7) Routes get merged or get found as duds - we needs a way to delete them and notify that they are gone.
+
+
+# XML element definitions #
+
+These are the XML schemas used by this spec.
+
+|Schema | Namespace Prefix	|Schema URL|
+|:------|:-----------------|:---------|
+|Atom Syndication Format|	[None](None.md) - this is the default namespace	|http://www.w3.org/2005/Atom|
+| Open Search Schema | openSearch | http://a9.com/-/spec/opensearch/1.1/|
+|Media RSS | media | http://search.yahoo.com/mrss/|
+| Google Data Schema | gd | http://schemas.google.com/g/2005|
+| GeoRSS	 | georss | http://www.georss.org/georss|
+| Geography Markup Language | gml | http://www.opengis.net/gml|
+| Dublin Core metadata | dc | http://purl.org/dc/elements/1.1/ |
+
+
+
+
+| Field | XML element | Example | Data type |
+|:------|:------------|:--------|:----------|
+| id | atom:id | tag:au.nsw.armidale.gara.n11 | URI |
+| Rating | gd:rating | 
+
+&lt;gd:rating min='1' max='5' numRaters='1914' average='4.24'/&gt;
+
+ | 4 star |
+| Deletion | gd:deleted | 
+
+&lt;gd:deleted /&gt;
+
+ | This route was deleted |
+| URL of detail page | atom:link | climbing.com/au/nsw/gara/N1 | URL |
+| Last mod | atom:updated | 11 Feb 2010 | Date |
+| Name | atom:title | Icarus | String |
+| Grade system | dc:type| Heuco | String (Heuco, Ewbank, etc - lock down choices) |
+| Grade | dc:format | V3 | String - format depends on system, can be repeated for multiple pitches |
+| Height | dc:extent | 6m | String - must have units at end 'm' 'f' |
+| Description | atom:content | Thin hard crimps | String |
+| Flags (eg Danger, Highball) | atom:category | Danger, Highball |
+| First Ascender | atom:author | Fred Nicole | String |
+| Seconder / spotter | atom:contributor | Little Jimmy | String |
+| First Ascender date | dc:date | 2000 Jan | DC allows partial dates |
+| First published date | atom:published | 2000 Jan 01 | Date |
+| License for data | dc:license | Creative Commons Share Alike etc | Free text |
+| Link to image | media:thumbnail | url="![http://example.com/pl_thumbs/A.jpg](http://example.com/pl_thumbs/A.jpg)" | URL |
+| Link to image | media:content | url="![http://example.com/pl_thumbs/A.jpg](http://example.com/pl_thumbs/A.jpg)" | URL |
+| Related climbs (eg variant) | atom:link | 
+
+&lt;link rel="related" href="http://search.example.com/"/&gt;
+
+ | Uri MUST match id of the related route |
+| Last mod date | atom:updated | 2010 | Date |
+| Geometry of route overlaid onto photo |svg:path | 
+
+&lt;path d="M50,50 L100,100" /&gt;
+
+ | Style should be omitted and added by client |
+| Lat / long  | georss:point | -31.1234 30.13414 |
+| Accuracy of lat long data | ??? | 4m, 10, 100m | Could be GPS, or Cell tower etc |
+| alt of route | georss:elev | 960m |
+| Left and right routes (important for old guides with no lat long) could be inferred from topo geometry | atom:link | 
+
+&lt;link rel="next" href="..."/&gt;
+
+ |  |
+| Language | dc:language | EN | Normal dc language codes |
+| Access permission from | dc:mediator | Fred Smith 02 1234 567 | Text |
+| rock type | dc:medium | Granite | Free text - but suggested vocabulary |
+
+
+
+All field of these are optional except the atom:id.

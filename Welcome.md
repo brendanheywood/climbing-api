@@ -1,0 +1,8 @@
+# Goals #
+
+The goal of this project is to create specifications for sharing climbing related data in an open way.
+
+
+# Climbing syndication #
+
+The first specification, and most needed, is way to share climbing routes. The proposed spec is a mixture of existing well undestood specs such as Atom, GeoRSS, MediaRSS, Dublic core. The intention is that the API will gracefully downgrade into normal feed readers and be easy to author.
